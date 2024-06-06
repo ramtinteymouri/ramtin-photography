@@ -18,6 +18,9 @@ body {
     line-height: 1.6;
     color: var(--text-color);
 }
+main {
+    padding-top: 80px;
+}
 
 .page-header {
     display: flex;
@@ -26,6 +29,12 @@ body {
     width: calc(100% - 40px);
     padding: 20px;
     font-size: 25px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: var(--primary-color);
+    z-index: 1000;
+    width: 100%;
 }
 
 .page-header__item {
@@ -164,9 +173,16 @@ button {
     .page-header {
         flex-direction: column;
         align-items: flex-start;
+        padding: 10px; /* Reduced padding for smaller screens */
+        font-size: 20px; /* Reduced font size for smaller screens */
     }
 
     .navigation-list {
         display: none;
+    }
+
+    .navbar-brand img {
+        width: 150px; /* Adjust logo size for smaller screens */
+        height: auto;
     }
 }

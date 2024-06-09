@@ -28,7 +28,7 @@ main {
     align-items: center;
     width: calc(100% - 40px);
     padding: 20px;
-    font-size: 25px;
+    font-size: 20px;
     position: fixed;
     top: 0;
     left: 0;

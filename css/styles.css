@@ -45,32 +45,6 @@ main {
     max-width: 200px;
 }
 
-.navigation-list {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-
-.navigation-list li {
-    display: inline-block;
-    margin-left: 45px;
-}
-
-.navigation-list li:first-child {
-    margin-left: 0;
-}
-
-.navigation-list li a {
-    color: var(--text-color);
-    text-decoration: none;
-}
-
-.navigation-list__item--active {
-    background-color: var(--selected-menu-color);
-    padding: 5px 10px;
-    border-radius: 5px;
-}
-
 .login-button {
     border: none;
     display: inline-block;

@@ -95,9 +95,8 @@ main {
 }
 
 .nav-link.active {
-    background-color: var(--selected-menu-color);
-    border-radius: 5px;
-    padding: 5px 10px;
+    text-decoration: underline;
+    text-underline-offset: 4px;
 }
 
 .navigation-list li .nav-link {
